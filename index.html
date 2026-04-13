@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shelton Web Solutions – Professional websites built for local businesses. Clean design, fast performance, and personal service." />
+  <title>Shelton Web Solutions | Websites for Local Businesses</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVBAR
+  ══════════════════════════════════════════════════════ -->
+  <nav id="nav" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-sws">SWS</span>
+        Shelton Web Solutions
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#work">Our Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="nav-cta">Get a Free Quote</a></li>
+      </ul>
+
+      <button class="hamburger" id="hambBtn" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="nav-drawer" id="drawer" aria-hidden="true">
+    <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#work">Our Work</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="drawer-cta">Get a Free Quote</a>
+  </div>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO
+  ══════════════════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow"></div>
+
+    <div class="container hero-body">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Based in Mississippi &nbsp;·&nbsp; Serving Local Businesses
+      </div>
+
+      <h1 class="hero-title">
+        Your Business Deserves<br>
+        A <span class="accent">Real Website</span>
+      </h1>
+
+      <p class="hero-sub">
+        We build clean, fast, professional websites for local businesses —
+        no templates, no fluff. Just a site that works hard for you 24/7.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+        <a href="#work"    class="btn btn-ghost">See Our Work</a>
+      </div>
+
+      <div class="hero-proof">
+        <div class="proof-item">
+          <strong>100%</strong>
+          <span>Custom Built</span>
+        </div>
+        <div class="proof-div"></div>
+        <div class="proof-item">
+          <strong>Fast</strong>
+          <span>Performance First</span>
+        </div>
+        <div class="proof-div"></div>
+        <div class="proof-item">
+          <strong>Local</strong>
+          <span>Personal Service</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 80" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" style="display:block;width:100%;height:80px;">
+        <path d="M0,40 C360,0 1080,80 1440,40 L1440,80 L0,80 Z" fill="#f8faff"/>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════════════════════ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">What We Do</span>
+        <h2 class="section-title">Everything You Need Online</h2>
+        <p class="section-sub">
+          From your first website to ongoing support — we handle the tech so you can
+          focus on running your business.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon si-blue">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <h3>Website Design &amp; Development</h3>
+          <p>A clean, custom-designed website that looks great on every device. Built to represent your brand and convert visitors into customers.</p>
+          <ul class="service-list">
+            <li>Fully responsive (mobile-friendly)</li>
+            <li>Fast load times</li>
+            <li>Custom design — no cookie-cutter templates</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon si-green">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <h3>SEO &amp; Local Visibility</h3>
+          <p>Show up when people in your area search for your services. We build every site with local SEO best practices baked right in.</p>
+          <ul class="service-list">
+            <li>Google-ready from day one</li>
+            <li>Local search optimization</li>
+            <li>Meta tags, schema markup, and more</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon si-purple">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <h3>Content &amp; Copywriting</h3>
+          <p>Not sure what to write? We've got you. We craft clear, compelling copy that tells your story and speaks to your customers.</p>
+          <ul class="service-list">
+            <li>Page copy and headlines</li>
+            <li>About &amp; services pages</li>
+            <li>Written to convert</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon si-orange">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3>Hosting &amp; Maintenance</h3>
+          <p>We don't just build and disappear. Get reliable hosting, security updates, and ongoing support to keep your site running smooth.</p>
+          <ul class="service-list">
+            <li>Reliable, fast hosting</li>
+            <li>Regular updates &amp; backups</li>
+            <li>You have a real person to call</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PROCESS
+  ══════════════════════════════════════════════════════ -->
+  <section id="process">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">How It Works</span>
+        <h2 class="section-title">Simple. Straightforward. Done Right.</h2>
+        <p class="section-sub">
+          No confusing jargon or long contracts. Here's exactly how we work together.
+        </p>
+      </div>
+
+      <div class="process-steps">
+
+        <div class="step reveal">
+          <div class="step-num">01</div>
+          <div class="step-body">
+            <h3>We Talk</h3>
+            <p>We start with a free, no-pressure conversation. You tell us about your business, your goals, and what you're looking for. We listen.</p>
+          </div>
+        </div>
+
+        <div class="step-arrow" aria-hidden="true">→</div>
+
+        <div class="step reveal">
+          <div class="step-num">02</div>
+          <div class="step-body">
+            <h3>We Build</h3>
+            <p>We design and develop your site, keeping you in the loop. You'll review and give feedback before anything goes live.</p>
+          </div>
+        </div>
+
+        <div class="step-arrow" aria-hidden="true">→</div>
+
+        <div class="step reveal">
+          <div class="step-num">03</div>
+          <div class="step-body">
+            <h3>You Launch</h3>
+            <p>Once you love it, we launch your site and make sure everything is set up right — domain, hosting, the works. Then we're here if you ever need us.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       PORTFOLIO / OUR WORK
+  ══════════════════════════════════════════════════════ -->
+  <section id="work">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Our Work</span>
+        <h2 class="section-title">Built for Real Businesses</h2>
+        <p class="section-sub">
+          Every site we build is crafted to fit the business — not the other way around.
+        </p>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card reveal">
+          <div class="portfolio-visual pv-cc">
+            <div class="pv-mockup">
+              <div class="mockup-bar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="mockup-body">
+                <div class="mockup-hero" style="background: linear-gradient(135deg, #FF6B9D, #FF8C42);"></div>
+                <div class="mockup-lines">
+                  <div class="ml ml-wide"></div>
+                  <div class="ml ml-med"></div>
+                  <div class="ml ml-short"></div>
+                </div>
+                <div class="mockup-cards">
+                  <div class="mc"></div>
+                  <div class="mc"></div>
+                  <div class="mc"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-tag">Food &amp; Beverage</div>
+            <h3>Corner Cravings</h3>
+            <p>A vibrant, full-featured website for Pontotoc's favorite local treat shop. Complete with menu tabs, community section, reviews, and hours — all mobile-ready.</p>
+            <div class="portfolio-tags">
+              <span>Custom Design</span>
+              <span>Mobile-First</span>
+              <span>Local SEO</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card portfolio-next reveal">
+          <div class="portfolio-visual pv-next">
+            <div class="pv-placeholder">
+              <div class="pv-plus">+</div>
+              <p>Your Business<br>Could Be Next</p>
+            </div>
+          </div>
+          <div class="portfolio-info">
+            <div class="portfolio-tag">Your Industry</div>
+            <h3>Your Business Here</h3>
+            <p>We're actively taking on new clients. Whether you're a restaurant, salon, contractor, or retailer — let's build something great together.</p>
+            <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       ABOUT
+  ══════════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-visual reveal">
+          <div class="about-card">
+            <div class="about-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            </div>
+            <h3>Trey Shelton</h3>
+            <p>Founder, Shelton Web Solutions</p>
+          </div>
+          <div class="about-stat-card reveal">
+            <strong>Local Businesses</strong>
+            <span>Helped Go Online</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <span class="eyebrow">About Us</span>
+          <h2 class="section-title">A Local Builder for Local Businesses</h2>
+          <p class="section-sub">
+            Shelton Web Solutions is a Mississippi-based web design LLC built to help local
+            businesses get a real, professional presence online — without the big agency price tag.
+          </p>
+          <p class="section-sub" style="margin-top: 1rem;">
+            When you work with us, you're not getting handed off to a random freelancer or
+            lost in a ticketing system. You get a real person who actually cares about your
+            business growing.
+          </p>
+
+          <div class="about-values">
+            <div class="value-item reveal">
+              <div class="value-icon">✓</div>
+              <div>
+                <strong>No Templates</strong>
+                <p>Every site is designed from scratch to match your brand.</p>
+              </div>
+            </div>
+            <div class="value-item reveal">
+              <div class="value-icon">✓</div>
+              <div>
+                <strong>Transparent Pricing</strong>
+                <p>You'll know exactly what you're getting before we start.</p>
+              </div>
+            </div>
+            <div class="value-item reveal">
+              <div class="value-icon">✓</div>
+              <div>
+                <strong>You Own It</strong>
+                <p>Your website, your domain, your content. Always.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       CONTACT / CTA
+  ══════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+
+        <div class="contact-text">
+          <span class="eyebrow">Get Started</span>
+          <h2 class="section-title">Ready for a Website<br>That Works?</h2>
+          <p class="section-sub">
+            Fill out the form and we'll get back to you within 24 hours.
+            The first conversation is always free — no commitment, no pressure.
+          </p>
+
+          <div class="contact-info-list">
+            <div class="ci-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.56 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.77a16 16 0 0 0 6.29 6.29l.83-.83a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.92 16.92z"/></svg>
+              <a href="tel:+16628756697">(662) 875-6697</a>
+            </div>
+            <div class="ci-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:trey@sheltonwebsolutions.com">trey@sheltonwebsolutions.com</a>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="business">Business Name</label>
+              <input type="text" id="business" name="business" placeholder="Smith's Boutique" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="jane@yourbusiness.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="(601) 555-0123" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" rows="4" placeholder="What kind of business do you have? Do you have an existing website? What are you hoping to accomplish?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+          <p class="form-note">We'll get back to you within 24 hours.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-sws">SWS</span>
+            Shelton Web Solutions
+          </div>
+          <p>Professional websites built for local businesses across Mississippi. Clean design, real results, personal service.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Web Design &amp; Development</a></li>
+            <li><a href="#services">SEO &amp; Local Visibility</a></li>
+            <li><a href="#services">Content &amp; Copywriting</a></li>
+            <li><a href="#services">Hosting &amp; Maintenance</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#work">Our Work</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Get In Touch</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+16628756697">(662) 875-6697</a></li>
+            <li><a href="mailto:trey@sheltonwebsolutions.com">trey@sheltonwebsolutions.com</a></li>
+            <li>Mississippi, USA</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2025 Shelton Web Solutions LLC. All rights reserved.</span>
+        <span>Built with care — right here in Mississippi.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

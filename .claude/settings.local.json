@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/treyshelton/Desktop/**)",
+      "Bash(find ~/Desktop -name *.html -path *Corner*)",
+      "Bash(find ~/Desktop -path *Corner*)"
+    ]
+  }
+}
